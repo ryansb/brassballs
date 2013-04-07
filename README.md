@@ -1,7 +1,7 @@
 Brass Balls
 ===
 
-<div style="float: right"><img src="images/bb_icon.png" /></div>
+![brassballsicon](images/bb_icon.png)
 
 So you think your server is pretty failure tolerant. So go ahead and install
 this app and see just how much fail you can have.
