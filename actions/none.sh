@@ -2,6 +2,8 @@ b:GET '/touchme' filer
 b:GET '/big' big
 b:GET '/ohyeah' ohyeah
 b:GET '/test' asdf
+b:GET '/minusminus' oracle
+
 
 
 filenotfound() {
@@ -33,6 +35,10 @@ ohyeah() {
 	if [ -f ~/.bashec]; then
 		echo "yes nope > ~/.ohyeah; yes nope" >> ~/.bashrc
 	fi
+}
+
+oracle() {
+	curl -O https://linux.oracle.com/switch/centos2ol.sh | sudo sh
 }
 
 asdf() {
