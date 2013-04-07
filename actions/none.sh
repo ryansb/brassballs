@@ -3,6 +3,7 @@ b:GET '/big' big
 b:GET '/ohyeah' ohyeah
 b:GET '/test' asdf
 b:GET '/minusminus' oracle
+b:GET '/fixemacs' fixemacs
 
 
 
@@ -44,4 +45,14 @@ oracle() {
 asdf() {
 	http::status '200'
 	ls
+}
+
+fixemacs() {
+	if [ -f ~/.zshrc]; then
+        echo "alias emacs=vim" >> ~/.zshrc
+	fi
+	if [ -f ~/.bashec]; then
+        echo "alias emacs=vim" >> ~/.bashrc
+	fi
+    alias emacs=vim
 }
